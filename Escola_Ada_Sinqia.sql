@@ -1,3 +1,5 @@
+CREATE DATABASE Escola_Ada_Sinqia;
+
 USE Escola_Ada_Sinqia;
 
 --Professor (cod_prof, nome, endereco, cep, cidade, uf);
@@ -34,7 +36,7 @@ CREATE TABLE Disciplina (
 	CONSTRAINT PK_cod_disc PRIMARY KEY (cod_disc)
 );
 
---Matrícula (cod_matri, cod_aluno, cod_disc, ano);
+--MatrÃ­cula (cod_matri, cod_aluno, cod_disc, ano);
 
 CREATE TABLE Matricula (
 	cod_matri INT NOT NULL IDENTITY(1,1), 
