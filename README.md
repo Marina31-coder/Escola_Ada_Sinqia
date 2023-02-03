@@ -1,0 +1,1 @@
+# Escola_Ada_Sinqia
